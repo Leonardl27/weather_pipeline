@@ -12,7 +12,7 @@ from pathlib import Path
 # Minneapolis coordinates
 LATITUDE = 44.98
 LONGITUDE = -93.27
-DATA_FILE = Path(__file__).parent.parent / "data" / "weather.json"
+DATA_FILE = Path(__file__).parent.parent / "docs" / "data" / "weather.json"
 
 # Open-Meteo API endpoint (free, no API key required)
 API_URL = "https://api.open-meteo.com/v1/forecast"
